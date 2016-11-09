@@ -1,0 +1,40 @@
+/********************************
+            CLEAR FIX
+********************************/
+.clear:before, .clear:after {
+  content: "";
+  display: table;
+}
+.clear:after {
+  clear: both;
+}
+.container {
+  margin-top: 35px;
+}
+.completed {
+  text-decoration: line-through;
+}
+
+.fa-trash-o {
+  float: right;
+  margin: 5px 10px;
+}
+
+form {
+  margin-top: 50px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fa-square-o, .fa-check-square-o {
+  float: left;
+  margin: 5px 10px;
+}
